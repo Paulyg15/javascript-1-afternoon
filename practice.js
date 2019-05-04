@@ -20,7 +20,7 @@ const lovesCode = true;
 
 //Create a variable called greatestFear that is undefined because we fear nothing
 
-const greatestFear;
+let greatestFear;
 
 //////////////////PROBLEM 5////////////////////
 
@@ -45,7 +45,7 @@ function greeting(name) {
 //Name it newGreeting.
 
 const newGreeting = function(name) {
-  `Hello, ${name}`;
+  return `Hello, ${name}`;
 }
 
 //////////////////PROBLEM 8////////////////////
@@ -88,7 +88,7 @@ function nameCheck(name) {
     return "What is up Steven?";
   }
   else if (name == "Bryan") {
-    return "Hey Bryan";
+    return "Hey Bryan!";
   }
   else return `Cool name, ${name}`;
 }
